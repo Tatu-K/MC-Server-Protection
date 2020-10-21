@@ -1,0 +1,103 @@
+{
+  "chat.change.town": "Vaihdettu keskustelukanavalle kaupunki",
+  "chat.change.global": "Vaihdettu keskustelukanavalle globaali",
+  "chat.change.local": "Vaihdettu keskustelukanavalle paikallinen",
+  
+  "chat.muted": "Sinut on hiljennetty etkä voi lähettää viestejä kohteeseen %s.",
+  "chat.mute.player": "Et näe viestejä pelaajalta %s.",
+  "chat.unmute.player": "Näet nyt viestit pelaajalta %s.",
+  "chat.mute.global": "%s on nyt hiljennetty kaikille pelaajille",
+  "chat.unmute.global": "%s ei ole enää hiljennetty kaikilta pelaajilta",
+  
+  "chat.room.local": "paikallinen",
+  "chat.room.global": "kaikki",
+  "chat.room.town": "kaupunki",
+  
+  "claim.chunk.pvp": "Taistelu",
+  "claim.chunk.self": "oma %s",
+  "claim.chunk.entering.generic": "Saavut %s",
+  "claim.chunk.entering.owned": "Saavut %s:n %s",
+  "claim.chunk.entering.town": "Saavut %s (%s)",
+  "claim.chunk.entering.town.owned": "Saavut %s - %s (%s)",
+  "claim.chunk.error.max": "Et voi suojata enempää lohkoja.",
+  "claim.chunk.error.claimed": "Tämä lohko on jo suojattu.",
+  "claim.chunk.error.not_players": "Tämä lohko ei kuulu sinulle.",
+  "claim.chunk.error.not_claimed": "Tämä lohko ei ole suojattu.",
+  "claim.chunk.error.radius_owned": "Alueellasi on lohko joka kuuluu %s:lle.",
+  "claim.chunk.claimed": "Suojasit %d lohkoa.",
+  "claim.chunk.unclaimed": "Vapautit %d lohkoa.",
+  
+  "claim.block.locked": "Tämä %s kuuluu %s:lle",
+  
+  "claim.wilderness.general": "Luonto",
+  "claim.wilderness.end": "Tyhjiö",
+  "claim.wilderness.nether": "Hukkamaa",
+  
+  "player.none_found": "Yhtään pelaajaa ei löytynyt.",
+  "player.not_found": "Pelaajaa ei löydetty (Ehkä hän ei ole liittynyt palvelimelle?).",
+  "player.abilities.flying_self.enabled": "Lentotila käytössä.",
+  "player.abilities.flying_self.disabled": "Lentotila pois käytöstä.",
+  "player.abilities.flying_other.enabled": "Lentotila käytössä %s:lle.",
+  "player.abilities.flying_other.disabled": "Lentotila pois käytöstä %s:lle.",
+  
+  "player.abilities.godmode_self.enabled": "Luojatila käytössä.",
+  "player.abilities.godmode_self.disabled": "Luojatila pois käytöstä.",
+  "player.abilities.godmode_other.enabled": "Luojatila käytössä %s:lle.",
+  "player.abilities.godmode_other.disabled": "Luojatila pois käytöstä %s:lle.",
+  
+  "player.abilities.healed_self": "Sinut parannettiin.",
+  "player.abilities.healed_other": "%s parannettiin.",
+  "player.abilities.healed_dead": "%s on kuollut.",
+  
+  "player.equipment.empty_hand": "Kädessäsi ei ole mitään.",
+  "player.equipment.empty_slot": "Valitussa paikassasi ei ole mitään.",
+  
+  "player.money": "Rahatilanne: $%d",
+  "player.money.poor": "Sinulla ei ole riittävästi rahaa.",
+  "player.death_chest.location": "Uusi kuolinarkku luotu paikkaan %s.",
+  "player.no_backpack": "Sinulla ei ole reppua.",
+  
+  "friends.rank.self": "Et voi muuttaa arvoasi.",
+  
+  "town.found": "%s loi uuden kaupungin nimeltä \"%s\".",
+  "town.disband": "%s jätti kaupunkinsa \"%s\".",
+  "town.found.poor": "Tarvitset %s luodaksesi kaupungin.",
+  "town.invite.receive": "%s on kutsunut sinut liittymään kaupunkiin \"%s\"",
+  "town.invite.join": "Liityit kaupunkiin %s.",
+  "town.invite.sent": "Lähetit %s:lle kutsun liittyä kaupunkiisi.",
+  "town.invite.rank": "Arvosi ei ole riittävän korkea pelaajien kutsumiseen.",
+  "town.invite.fail": "Et voi kutsua tätä pelaajaa kaupunkiisi.",
+  "town.invite.missing": "Sinua ei ole kutsuttu tähän kaupunkiin.",
+  
+  "warp.random.search": "Odota kun etsimme sinulle lomakohteen!",
+  "warp.random.build": "Asetetaan uutta kotiasi!",
+  "warp.random.teleported": "Olet nyt %d palikan päässä syntymäpaikasta. Älä kadota tätä siirtymispistettä, voit palata syntymäpaikkaan sen avulla.",
+  
+  "warp.notice.player.outside_spawn": "Siirtyminen on sallittua vain syntymäpaikan alueella.",
+  "warp.notice.target.outside_spawn": "Tämä pelaaja ei ole syntymäpaikan alueella.",
+  "warp.notice.no_request": "Tämä pelaaja ei yritä siirtyä luoksesi. Pyyntö on voinut vanhentua, tai olet jo saattanut hyväksyä sen.",
+  "warp.notice.no_warp": "Tällä pelaajalla ei ole siirtymispistettä.",
+  "warp.notice.offline": "Tämä pelaaja ei voi saada siirtymispyyntöäsi, hän ei ole paikalla.",
+  "warp.notice.player": "%s siirtyi siirtymäpisteellesi.",
+  
+  "shop.error.database": "Toimenpiteessä tapahtui virhe.",
+  "shop.error.chest_open": "Tätä ei voi tehdä arkun ollessa auki.",
+  "shop.error.self_sell": "Et voi myydä tavaroita itsellesi.",
+  "shop.error.self_buy": "Et voi ostaa tavaroita itseltäsi.",
+  "shop.error.stock_player": "Sinulla ei ole yhtään %s:a.",
+  "shop.error.stock_chest": "Arkussa ei ole yhtään %s:a.",
+  "shop.error.money_player": "Sinulla ei ole riittävästi rahaa.",
+  "shop.error.money_chest": "Ostajalla ei ole riittävästi rahaa.",
+  
+  "backpack.no_downsize": "Et voi ostaa nykyistäsi pienempää reppua.",
+  "backpack.need_previous": "Sinun on ostettava edellinen reppu ensin.",
+  
+  "bee_hive.0": "Kuuntelet pesää tarkkaan, et kuule mitään.",
+  "bee_hive.1": "Kuuntelet pesää tarkkaan, kuulet mehiläisten pehmeää pörinää.",
+  "bee_hive.2": "Kuuntelet pesää tarkkaan, kuulet mehiläisten iloista pörinää.",
+  "bee_hive.3": "Kuuntelet pesää tarkkaan, kuulet mehiläisten äänekästä pörinää.",
+  
+  "spawn.set.missing_bed": "Synnyinpaikka on asetettava sängyn luokse.",
+  
+  "ruler.no_block": "Palikan sijaintia ei löydetty."
+}
